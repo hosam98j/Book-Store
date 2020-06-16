@@ -1,0 +1,29 @@
+aside {
+  background-color: $main-gray;
+  flex-basis: 20%;
+  border-radius: $main-br;
+  padding: 30px;
+  h4 {
+    margin-bottom: 0;
+  }
+  ul {
+    color: $second-gray;
+  }
+  .search {
+    input {
+      border: none;
+      border-bottom: 1px solid $second-gray;
+      background: none;
+      padding: 10px 0;
+      background-image: url("../../assets/icons/magnifying-glass.svg");
+      background-repeat: no-repeat;
+      background-position: 100% 50%;
+      background-size: 15px;
+      width: 100%;
+      &:focus {
+        outline: none;
+        border-bottom-color: $main-orange;
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+profile page 
+    - add new book
+    - add to cart
+home
+    - add to cart
+    change view mode

@@ -1,0 +1,9 @@
+export const USER_AUTH = "USER_AUTH";
+export const USER_STATUS = "USER_STATUS"; // first app load
+export const USER_LOG_IN = "USER_LOG_IN"; //
+export const LOG_OUT = "LOG_OUT"; // logout the user
+export const GET_DATA = "GET_DATA"; // init action when app load
+export const GET_USER_ALL_BOOKS = "GET_USER_ALL_BOOKS"; // get all books of logged user
+export const NEW_BOOK = "NEW_BOOK"; // add new book to the database
+export const VIEW_TYPE = "VIEW_TYPE"; // change the type view of books list
+export const SELLERS_DATA = "SELLERS_DATA"; //

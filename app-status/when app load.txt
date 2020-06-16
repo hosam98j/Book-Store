@@ -1,0 +1,5 @@
+first app load: 
+  if user is null that is mean the response is not comepac and the <loading /> will appear .
+  app component sent token if exist to get user status and info
+  response is user = false or user = user obj
+  dispatch USER_STATUS action to modify user property value to undefinde or user obj

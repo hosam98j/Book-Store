@@ -1,0 +1,42 @@
+.hight-rated-books {
+  h5,
+  h4 {
+    margin: 0;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  background-color: white;
+  margin: 20px auto;
+  width: 171px;
+  height: 245px;
+  position: relative;
+  .book-details-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.411);
+    backdrop-filter: blur(10px) opacity(1);
+    height: 60px;
+    padding: 10px;
+    color: white;
+  }
+  .book-rated {
+    flex-basis: 90%;
+    img {
+      width: 13.02px;
+      height: 13px;
+      margin-right: 5px;
+    }
+  }
+  .book-details {
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    h5 {
+      flex-basis: 10%;
+    }
+  }
+}

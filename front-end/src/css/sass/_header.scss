@@ -1,0 +1,44 @@
+.app-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  .logo {
+    flex-basis: 20%;
+    flex-grow: 1;
+    h2 {
+      margin: 0;
+      font-size: 1.5em;
+      color: black;
+    }
+  }
+  ul {
+    display: flex;
+    margin: 0;
+    padding-left: 30px;
+    li {
+      padding: 5px 15px;
+      border: 2px solid transparent;
+      &:hover {
+        border-bottom-color: $color3;
+      }
+      a {
+        color: $second-gray;
+      }
+    }
+  }
+  ul.header-links {
+    flex-basis: 30%;
+  }
+  ul.user-auth-links {
+    flex-basis: 30%;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  .user {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

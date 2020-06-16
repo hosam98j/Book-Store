@@ -1,0 +1,28 @@
+.current-price {
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 50%;
+  background-color: $color3;
+  .header {
+    display: flex;
+    margin-bottom: 15px;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      img {
+        height: 20px;
+      }
+    }
+    h5 {
+      margin: 0;
+    }
+    h5,
+    div {
+      flex-basis: 50%;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+main {
+  header {
+    display: flex;
+    ul {
+      flex-basis: 80%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      font-size: 25px;
+      color: $second-gray;
+      li {
+        margin-right: 50px;
+      }
+    }
+  }
+  .content {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

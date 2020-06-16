@@ -1,0 +1,16 @@
+auth routes :
+   login
+   logout
+
+user authrized routes
+home
+    new relased 
+    amazon best seller
+    for you	
+wishlist
+book store
+my collection
+profile page
+    all books
+    book selled
+    book buyed

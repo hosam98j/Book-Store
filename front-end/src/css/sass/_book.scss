@@ -1,0 +1,49 @@
+.book {
+  width: 450px;
+  height: 250px;
+  border: 1.5px solid $main-gray;
+  display: flex;
+  border-radius: $second-br;
+  margin: 0px 15px 15px 0;
+  .book-img {
+    height: 100%;
+    flex-basis: 45%;
+    background-color: lightgray;
+    border-radius: $second-br;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: $second-br;
+    }
+  }
+  .book-details {
+    padding: 10px 20px;
+    flex-basis: 65%;
+    .buy-book {
+      background-color: $color5;
+      color: $main-white;
+      padding: 10px;
+      border-radius: 7px;
+      margin-top: 20px;
+      width: 120px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .price {
+      color: $main-green;
+    }
+    .seller {
+      margin-top: 2px;
+      display: block;
+    }
+    .book-category {
+      color: $second-gray;
+    }
+    .book-rate {
+      img {
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}

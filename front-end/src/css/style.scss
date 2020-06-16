@@ -1,0 +1,67 @@
+.active {
+  color: black !important;
+}
+@import "./palette.scss";
+@import "./Responsive/side_area";
+@import "./Responsive/navbar";
+@import "./Responsive/home.scss";
+@import "./Responsive//not_auth_user_welcome";
+@import "./sass/varables";
+@import "./sass/header";
+@import "./sass/mainArea";
+@import "./sass/sideArea";
+@import "./sass/view_type";
+@import "./sass/book";
+@import "./sass/user-cart";
+@import "./sass/user_card";
+@import "./sass/signup";
+@import "./sass/user";
+@import "./sass/logout_button";
+@import "./sass/profile";
+@import "./sass/add_new_book";
+@import "./sass/UserProfile/Current_State";
+@import "./sass/UserProfile/Current_Price";
+@import "./sass/UserProfile/NAV_BAR";
+@import "./sass/UserProfile/hight_rated_books";
+@import "./sass/auth/login";
+@import "./sass/UserNotLogin/welcome";
+@import "./sass/loading";
+@import "./sass/routes/BestSeller";
+@import "./sass/templates/SellerCard";
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Segoe UI" !important;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: $main-white;
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+}
+
+.main-area-container {
+  padding: 30px 0 30px 30px;
+  flex-basis: 80%;
+}
+
+.App {
+  position: relative;
+  height: 100vh;
+}
+
+a {
+  color: $second-gray;
+}

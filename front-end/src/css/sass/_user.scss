@@ -1,0 +1,30 @@
+.user-profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  color: black;
+  padding: 2px;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background-color: $main-gray;
+    border-color: $color3;
+  }
+  .user-img {
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: 10px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  .hi {
+    color: $second-gray;
+    margin-right: 5px;
+  }
+}
