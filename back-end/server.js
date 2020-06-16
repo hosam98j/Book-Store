@@ -16,5 +16,4 @@ server.use(express.json());
 server.use("/main", mainRoutes);
 server.use("/user", userAuth);
 
-console.log("Hello");
 server.listen(PORT, () => console.log("serve runing"));
